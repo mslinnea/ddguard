@@ -21,4 +21,14 @@ First public release
 * Create cnl24driverlib
 * Integrate Nightscout uploader
 
- 
+###  0.5 [03/03/2020]
+
+* Improved robustness of CNL2.4 driver
+
+### 06 [16/04/2020]
+
+* Parse all data in PumpStatusResponseMessage of CNL2.4 driver
+
+* Add more status data to Blynk uploader
+
+  
