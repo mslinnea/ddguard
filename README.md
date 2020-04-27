@@ -119,6 +119,8 @@ sudo ./install.sh
 
 Modify the configuration parameters in `/etc/ddguard.conf` to match your setup.
 
+The Blynk server is simply "blynk-cloud.com" and the Blynk token is emailed to you after scanning the QR code in the Blynk app.
+
 ```
 ################################################
 #
@@ -156,6 +158,9 @@ bgl_high      = 220   # BGL high threshold (color data red when above)
 #### Start daemon
 
     systemctl start ddguard
+    
+#### View Logs
+    sudo journalctl -u ddguard
 
 
 
